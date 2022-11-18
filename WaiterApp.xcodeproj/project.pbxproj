@@ -14,6 +14,7 @@
 		1827B3902926A25800D64397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1827B38E2926A25800D64397 /* LaunchScreen.storyboard */; };
 		1827B3A32926E7BC00D64397 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B3A22926E7BC00D64397 /* CustomColor.swift */; };
 		188DA2CF292735AA008E65DF /* WaiterNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DA2CE292735AA008E65DF /* WaiterNavigationController.swift */; };
+		18A1E775292800390026606E /* WaiterNavigationControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1E774292800390026606E /* WaiterNavigationControllerFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1827B3912926A25800D64397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1827B3A22926E7BC00D64397 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 		188DA2CE292735AA008E65DF /* WaiterNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaiterNavigationController.swift; sourceTree = "<group>"; };
+		18A1E774292800390026606E /* WaiterNavigationControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaiterNavigationControllerFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				1827B3852926A25600D64397 /* SceneDelegate.swift */,
 				1827B3872926A25600D64397 /* WaiterMainViewController.swift */,
 				188DA2CE292735AA008E65DF /* WaiterNavigationController.swift */,
+				18A1E774292800390026606E /* WaiterNavigationControllerFactory.swift */,
 				1827B3A22926E7BC00D64397 /* CustomColor.swift */,
 				1827B38C2926A25800D64397 /* Assets.xcassets */,
 				1827B38E2926A25800D64397 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				1827B3842926A25600D64397 /* AppDelegate.swift in Sources */,
 				1827B3A32926E7BC00D64397 /* CustomColor.swift in Sources */,
 				188DA2CF292735AA008E65DF /* WaiterNavigationController.swift in Sources */,
+				18A1E775292800390026606E /* WaiterNavigationControllerFactory.swift in Sources */,
 				1827B3862926A25600D64397 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

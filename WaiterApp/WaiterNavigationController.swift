@@ -41,13 +41,3 @@ final class WaiterNavigationController: UINavigationController {
 	}
 
 }
-
-final class WaiterNavigationControllerFactory {
-
-	static func make() -> WaiterNavigationController {
-		let navigationController = WaiterNavigationController()
-		let viewController = WaiterMainViewController()
-		navigationController.viewControllers = [viewController]
-		return navigationController
-	}
-}
