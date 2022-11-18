@@ -14,7 +14,6 @@ final class WaiterNavigationController: UINavigationController {
 
 		self.navigationBar.tintColor = .label
 		self.navigationBar.prefersLargeTitles = true
-		self.navigationBar.backgroundColor = .purple
 
 		setupNavigationAppearance()
 	}
