@@ -26,8 +26,6 @@ final class WaiterNavigationController: UINavigationController {
 
 	private func setupNavigationAppearance() {
 		self.navigationBar.prefersLargeTitles = true
-		self.navigationBar.barTintColor = .purple
-		self.title = "Pedido"
 	}
 
 	private func setRightBarButtonAppearance() {
@@ -39,7 +37,7 @@ final class WaiterNavigationController: UINavigationController {
 	@objc func closeButtonTapped() {
 		self.dismiss(animated: true, completion: nil)
 		print("close button tapped")
-		
+
 	}
 
 }

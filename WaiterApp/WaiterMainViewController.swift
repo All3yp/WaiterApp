@@ -13,6 +13,7 @@ class WaiterMainViewController: UIViewController {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
 		self.view.backgroundColor = .systemBackground
+		self.title = "Pedido"
 	}
 
 }
