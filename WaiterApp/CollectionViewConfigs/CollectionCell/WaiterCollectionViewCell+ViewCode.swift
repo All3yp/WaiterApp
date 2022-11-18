@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension FoodCircleCollectionViewCell: ViewCode {
+extension WaiterCircleCollectionViewCell: ViewCode {
 
 	func addSubviews() {
 		addSubview(circularView)

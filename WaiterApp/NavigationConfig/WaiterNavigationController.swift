@@ -28,7 +28,10 @@ final class WaiterNavigationController: UINavigationController {
 	}
 
 	private func setRightBarButtonAppearance() {
-		let button = UIBarButtonItem(title: "cancelar pedido", style: .plain, target: self, action: #selector(closeButtonTapped))
+		let button = UIBarButtonItem(
+			title: "cancelar pedido",
+			style: .plain, target: self, action: #selector(closeButtonTapped)
+		)
 		button.tintColor = UIColor.CustomColor.red
 		self.navigationItem.rightBarButtonItem = button
 	}

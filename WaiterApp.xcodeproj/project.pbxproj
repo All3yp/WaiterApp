@@ -12,9 +12,16 @@
 		1827B3882926A25600D64397 /* WaiterMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B3872926A25600D64397 /* WaiterMainViewController.swift */; };
 		1827B38D2926A25800D64397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1827B38C2926A25800D64397 /* Assets.xcassets */; };
 		1827B3902926A25800D64397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1827B38E2926A25800D64397 /* LaunchScreen.storyboard */; };
-		1827B3A32926E7BC00D64397 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B3A22926E7BC00D64397 /* CustomColor.swift */; };
+		1827B3A32926E7BC00D64397 /* CustomColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B3A22926E7BC00D64397 /* CustomColor+Ext.swift */; };
 		188DA2CF292735AA008E65DF /* WaiterNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DA2CE292735AA008E65DF /* WaiterNavigationController.swift */; };
+		189B27F92928455000265210 /* ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B27F82928455000265210 /* ViewCode.swift */; };
+		189B27FB292846A700265210 /* WaiterCollectionViewCell+ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B27FA292846A700265210 /* WaiterCollectionViewCell+ViewCode.swift */; };
 		18A1E775292800390026606E /* WaiterNavigationControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1E774292800390026606E /* WaiterNavigationControllerFactory.swift */; };
+		18A1E7772928024F0026606E /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1E7762928024F0026606E /* CircularView.swift */; };
+		18A1E779292819C10026606E /* WaiterCircleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1E778292819C10026606E /* WaiterCircleCollectionViewCell.swift */; };
+		18A1E77B29282CBA0026606E /* WaiterCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1E77A29282CBA0026606E /* WaiterCollectionView.swift */; };
+		18A1E77D29282CD20026606E /* WaiterTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1E77C29282CD20026606E /* WaiterTableView.swift */; };
+		18A1E77F29282CDE0026606E /* WaiterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1E77E29282CDE0026606E /* WaiterTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +32,16 @@
 		1827B38C2926A25800D64397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1827B38F2926A25800D64397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1827B3912926A25800D64397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1827B3A22926E7BC00D64397 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		1827B3A22926E7BC00D64397 /* CustomColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomColor+Ext.swift"; sourceTree = "<group>"; };
 		188DA2CE292735AA008E65DF /* WaiterNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaiterNavigationController.swift; sourceTree = "<group>"; };
+		189B27F82928455000265210 /* ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCode.swift; sourceTree = "<group>"; };
+		189B27FA292846A700265210 /* WaiterCollectionViewCell+ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaiterCollectionViewCell+ViewCode.swift"; sourceTree = "<group>"; };
 		18A1E774292800390026606E /* WaiterNavigationControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaiterNavigationControllerFactory.swift; sourceTree = "<group>"; };
+		18A1E7762928024F0026606E /* CircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularView.swift; sourceTree = "<group>"; };
+		18A1E778292819C10026606E /* WaiterCircleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaiterCircleCollectionViewCell.swift; sourceTree = "<group>"; };
+		18A1E77A29282CBA0026606E /* WaiterCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaiterCollectionView.swift; sourceTree = "<group>"; };
+		18A1E77C29282CD20026606E /* WaiterTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaiterTableView.swift; sourceTree = "<group>"; };
+		18A1E77E29282CDE0026606E /* WaiterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaiterTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,15 +76,78 @@
 			children = (
 				1827B3832926A25600D64397 /* AppDelegate.swift */,
 				1827B3852926A25600D64397 /* SceneDelegate.swift */,
-				1827B3872926A25600D64397 /* WaiterMainViewController.swift */,
-				188DA2CE292735AA008E65DF /* WaiterNavigationController.swift */,
-				18A1E774292800390026606E /* WaiterNavigationControllerFactory.swift */,
-				1827B3A22926E7BC00D64397 /* CustomColor.swift */,
+				18A1E78529282D5C0026606E /* Controllers */,
+				18A1E78029282CE70026606E /* Views */,
+				18A1E78129282CFA0026606E /* CollectionViewConfigs */,
+				18A1E78229282D0B0026606E /* TableViewConfigs */,
+				18A1E78329282D320026606E /* NavigationConfig */,
+				18A1E78429282D410026606E /* Extensions */,
 				1827B38C2926A25800D64397 /* Assets.xcassets */,
 				1827B38E2926A25800D64397 /* LaunchScreen.storyboard */,
 				1827B3912926A25800D64397 /* Info.plist */,
 			);
 			path = WaiterApp;
+			sourceTree = "<group>";
+		};
+		189B27FC2928471700265210 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				18A1E778292819C10026606E /* WaiterCircleCollectionViewCell.swift */,
+				189B27FA292846A700265210 /* WaiterCollectionViewCell+ViewCode.swift */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		18A1E78029282CE70026606E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18A1E7762928024F0026606E /* CircularView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18A1E78129282CFA0026606E /* CollectionViewConfigs */ = {
+			isa = PBXGroup;
+			children = (
+				189B27FC2928471700265210 /* CollectionCell */,
+				18A1E77A29282CBA0026606E /* WaiterCollectionView.swift */,
+			);
+			path = CollectionViewConfigs;
+			sourceTree = "<group>";
+		};
+		18A1E78229282D0B0026606E /* TableViewConfigs */ = {
+			isa = PBXGroup;
+			children = (
+				18A1E77C29282CD20026606E /* WaiterTableView.swift */,
+				18A1E77E29282CDE0026606E /* WaiterTableViewCell.swift */,
+			);
+			path = TableViewConfigs;
+			sourceTree = "<group>";
+		};
+		18A1E78329282D320026606E /* NavigationConfig */ = {
+			isa = PBXGroup;
+			children = (
+				188DA2CE292735AA008E65DF /* WaiterNavigationController.swift */,
+				18A1E774292800390026606E /* WaiterNavigationControllerFactory.swift */,
+			);
+			path = NavigationConfig;
+			sourceTree = "<group>";
+		};
+		18A1E78429282D410026606E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1827B3A22926E7BC00D64397 /* CustomColor+Ext.swift */,
+				189B27F82928455000265210 /* ViewCode.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		18A1E78529282D5C0026606E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1827B3872926A25600D64397 /* WaiterMainViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,12 +220,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A1E77B29282CBA0026606E /* WaiterCollectionView.swift in Sources */,
 				1827B3882926A25600D64397 /* WaiterMainViewController.swift in Sources */,
+				18A1E77F29282CDE0026606E /* WaiterTableViewCell.swift in Sources */,
+				18A1E7772928024F0026606E /* CircularView.swift in Sources */,
 				1827B3842926A25600D64397 /* AppDelegate.swift in Sources */,
-				1827B3A32926E7BC00D64397 /* CustomColor.swift in Sources */,
+				1827B3A32926E7BC00D64397 /* CustomColor+Ext.swift in Sources */,
+				189B27FB292846A700265210 /* WaiterCollectionViewCell+ViewCode.swift in Sources */,
 				188DA2CF292735AA008E65DF /* WaiterNavigationController.swift in Sources */,
 				18A1E775292800390026606E /* WaiterNavigationControllerFactory.swift in Sources */,
+				18A1E779292819C10026606E /* WaiterCircleCollectionViewCell.swift in Sources */,
 				1827B3862926A25600D64397 /* SceneDelegate.swift in Sources */,
+				18A1E77D29282CD20026606E /* WaiterTableView.swift in Sources */,
+				189B27F92928455000265210 /* ViewCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
