@@ -9,19 +9,23 @@
 /* Begin PBXBuildFile section */
 		1827B3842926A25600D64397 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B3832926A25600D64397 /* AppDelegate.swift */; };
 		1827B3862926A25600D64397 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B3852926A25600D64397 /* SceneDelegate.swift */; };
-		1827B3882926A25600D64397 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B3872926A25600D64397 /* ViewController.swift */; };
+		1827B3882926A25600D64397 /* WaiterMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B3872926A25600D64397 /* WaiterMainViewController.swift */; };
 		1827B38D2926A25800D64397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1827B38C2926A25800D64397 /* Assets.xcassets */; };
 		1827B3902926A25800D64397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1827B38E2926A25800D64397 /* LaunchScreen.storyboard */; };
+		1827B3A32926E7BC00D64397 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B3A22926E7BC00D64397 /* CustomColor.swift */; };
+		188DA2CD2926F525008E65DF /* WaiterNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DA2CC2926F525008E65DF /* WaiterNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1827B3802926A25600D64397 /* WaiterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaiterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1827B3832926A25600D64397 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1827B3852926A25600D64397 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1827B3872926A25600D64397 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1827B3872926A25600D64397 /* WaiterMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaiterMainViewController.swift; sourceTree = "<group>"; };
 		1827B38C2926A25800D64397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1827B38F2926A25800D64397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1827B3912926A25800D64397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1827B3A22926E7BC00D64397 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		188DA2CC2926F525008E65DF /* WaiterNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaiterNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				1827B3832926A25600D64397 /* AppDelegate.swift */,
 				1827B3852926A25600D64397 /* SceneDelegate.swift */,
-				1827B3872926A25600D64397 /* ViewController.swift */,
+				1827B3872926A25600D64397 /* WaiterMainViewController.swift */,
+				188DA2CC2926F525008E65DF /* WaiterNavigationController.swift */,
+				1827B3A22926E7BC00D64397 /* CustomColor.swift */,
 				1827B38C2926A25800D64397 /* Assets.xcassets */,
 				1827B38E2926A25800D64397 /* LaunchScreen.storyboard */,
 				1827B3912926A25800D64397 /* Info.plist */,
@@ -134,8 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1827B3882926A25600D64397 /* ViewController.swift in Sources */,
+				1827B3882926A25600D64397 /* WaiterMainViewController.swift in Sources */,
 				1827B3842926A25600D64397 /* AppDelegate.swift in Sources */,
+				1827B3A32926E7BC00D64397 /* CustomColor.swift in Sources */,
+				188DA2CD2926F525008E65DF /* WaiterNavigationController.swift in Sources */,
 				1827B3862926A25600D64397 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

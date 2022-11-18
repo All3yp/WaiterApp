@@ -7,13 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WaiterMainViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
-		self.view.backgroundColor = .blue
+		self.view.backgroundColor = .systemBackground
 	}
 
 }
-
