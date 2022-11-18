@@ -10,7 +10,7 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 		var window: UIWindow?
-	let rootViewController = WaiterMainViewController()
+	let rootViewController = WaiterNavigationControllerFactory.make()
 
 		func scene(_ scene: UIScene, willConnectTo session: UISceneSession,
 							 options connectionOptions: UIScene.ConnectionOptions) {
