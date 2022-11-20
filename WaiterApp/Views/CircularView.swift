@@ -14,7 +14,7 @@ final class CircularView: UIView {
 		layer.fillColor = UIColor.clear.cgColor
 		layer.strokeColor = UIColor.purple.cgColor
 		layer.fillColor = UIColor.orange.cgColor
-		layer.lineWidth = 2
+		layer.lineWidth = 1
 		return layer
 	}()
 

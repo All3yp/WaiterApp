@@ -15,11 +15,12 @@
 		1827B3A32926E7BC00D64397 /* CustomColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B3A22926E7BC00D64397 /* CustomColor+Ext.swift */; };
 		188DA2CF292735AA008E65DF /* WaiterNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DA2CE292735AA008E65DF /* WaiterNavigationController.swift */; };
 		189B27F92928455000265210 /* ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B27F82928455000265210 /* ViewCode.swift */; };
-		189B27FB292846A700265210 /* WaiterCollectionViewCell+ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B27FA292846A700265210 /* WaiterCollectionViewCell+ViewCode.swift */; };
+		189B27FB292846A700265210 /* FilterCollectionViewCell+ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B27FA292846A700265210 /* FilterCollectionViewCell+ViewCode.swift */; };
+		189B27FE29286B3800265210 /* WaiterView+ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B27FD29286B3800265210 /* WaiterView+ViewCode.swift */; };
 		18A1E775292800390026606E /* WaiterNavigationControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1E774292800390026606E /* WaiterNavigationControllerFactory.swift */; };
 		18A1E7772928024F0026606E /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1E7762928024F0026606E /* CircularView.swift */; };
-		18A1E779292819C10026606E /* WaiterCircleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1E778292819C10026606E /* WaiterCircleCollectionViewCell.swift */; };
-		18A1E77B29282CBA0026606E /* WaiterCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1E77A29282CBA0026606E /* WaiterCollectionView.swift */; };
+		18A1E779292819C10026606E /* FilterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1E778292819C10026606E /* FilterCollectionViewCell.swift */; };
+		18A1E77B29282CBA0026606E /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1E77A29282CBA0026606E /* FilterView.swift */; };
 		18A1E77D29282CD20026606E /* WaiterTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1E77C29282CD20026606E /* WaiterTableView.swift */; };
 		18A1E77F29282CDE0026606E /* WaiterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1E77E29282CDE0026606E /* WaiterTableViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -35,11 +36,12 @@
 		1827B3A22926E7BC00D64397 /* CustomColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomColor+Ext.swift"; sourceTree = "<group>"; };
 		188DA2CE292735AA008E65DF /* WaiterNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaiterNavigationController.swift; sourceTree = "<group>"; };
 		189B27F82928455000265210 /* ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCode.swift; sourceTree = "<group>"; };
-		189B27FA292846A700265210 /* WaiterCollectionViewCell+ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaiterCollectionViewCell+ViewCode.swift"; sourceTree = "<group>"; };
+		189B27FA292846A700265210 /* FilterCollectionViewCell+ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FilterCollectionViewCell+ViewCode.swift"; sourceTree = "<group>"; };
+		189B27FD29286B3800265210 /* WaiterView+ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaiterView+ViewCode.swift"; sourceTree = "<group>"; };
 		18A1E774292800390026606E /* WaiterNavigationControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaiterNavigationControllerFactory.swift; sourceTree = "<group>"; };
 		18A1E7762928024F0026606E /* CircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularView.swift; sourceTree = "<group>"; };
-		18A1E778292819C10026606E /* WaiterCircleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaiterCircleCollectionViewCell.swift; sourceTree = "<group>"; };
-		18A1E77A29282CBA0026606E /* WaiterCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaiterCollectionView.swift; sourceTree = "<group>"; };
+		18A1E778292819C10026606E /* FilterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCollectionViewCell.swift; sourceTree = "<group>"; };
+		18A1E77A29282CBA0026606E /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 		18A1E77C29282CD20026606E /* WaiterTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaiterTableView.swift; sourceTree = "<group>"; };
 		18A1E77E29282CDE0026606E /* WaiterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaiterTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,8 +94,8 @@
 		189B27FC2928471700265210 /* CollectionCell */ = {
 			isa = PBXGroup;
 			children = (
-				18A1E778292819C10026606E /* WaiterCircleCollectionViewCell.swift */,
-				189B27FA292846A700265210 /* WaiterCollectionViewCell+ViewCode.swift */,
+				18A1E778292819C10026606E /* FilterCollectionViewCell.swift */,
+				189B27FA292846A700265210 /* FilterCollectionViewCell+ViewCode.swift */,
 			);
 			path = CollectionCell;
 			sourceTree = "<group>";
@@ -110,7 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				189B27FC2928471700265210 /* CollectionCell */,
-				18A1E77A29282CBA0026606E /* WaiterCollectionView.swift */,
+				18A1E77A29282CBA0026606E /* FilterView.swift */,
+				189B27FD29286B3800265210 /* WaiterView+ViewCode.swift */,
 			);
 			path = CollectionViewConfigs;
 			sourceTree = "<group>";
@@ -220,18 +223,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18A1E77B29282CBA0026606E /* WaiterCollectionView.swift in Sources */,
+				18A1E77B29282CBA0026606E /* FilterView.swift in Sources */,
 				1827B3882926A25600D64397 /* WaiterMainViewController.swift in Sources */,
 				18A1E77F29282CDE0026606E /* WaiterTableViewCell.swift in Sources */,
 				18A1E7772928024F0026606E /* CircularView.swift in Sources */,
 				1827B3842926A25600D64397 /* AppDelegate.swift in Sources */,
 				1827B3A32926E7BC00D64397 /* CustomColor+Ext.swift in Sources */,
-				189B27FB292846A700265210 /* WaiterCollectionViewCell+ViewCode.swift in Sources */,
+				189B27FB292846A700265210 /* FilterCollectionViewCell+ViewCode.swift in Sources */,
 				188DA2CF292735AA008E65DF /* WaiterNavigationController.swift in Sources */,
 				18A1E775292800390026606E /* WaiterNavigationControllerFactory.swift in Sources */,
-				18A1E779292819C10026606E /* WaiterCircleCollectionViewCell.swift in Sources */,
+				18A1E779292819C10026606E /* FilterCollectionViewCell.swift in Sources */,
 				1827B3862926A25600D64397 /* SceneDelegate.swift in Sources */,
 				18A1E77D29282CD20026606E /* WaiterTableView.swift in Sources */,
+				189B27FE29286B3800265210 /* WaiterView+ViewCode.swift in Sources */,
 				189B27F92928455000265210 /* ViewCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
