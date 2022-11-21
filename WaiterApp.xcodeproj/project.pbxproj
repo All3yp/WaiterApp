@@ -76,8 +76,7 @@
 		1827B3822926A25600D64397 /* WaiterApp */ = {
 			isa = PBXGroup;
 			children = (
-				1827B3832926A25600D64397 /* AppDelegate.swift */,
-				1827B3852926A25600D64397 /* SceneDelegate.swift */,
+				189B2803292B18B200265210 /* AppDelegate */,
 				18A1E78529282D5C0026606E /* Controllers */,
 				18A1E78029282CE70026606E /* Views */,
 				189B27FC2928471700265210 /* Cells */,
@@ -114,6 +113,15 @@
 				189B27FD29286B3800265210 /* WaiterView+ViewCode.swift */,
 			);
 			path = ViewCode;
+			sourceTree = "<group>";
+		};
+		189B2803292B18B200265210 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1827B3832926A25600D64397 /* AppDelegate.swift */,
+				1827B3852926A25600D64397 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 		18A1E78029282CE70026606E /* Views */ = {
