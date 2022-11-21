@@ -9,15 +9,18 @@ import UIKit
 
 final class CircularView: UIView {
 
-	let circleLayer: CAShapeLayer = {
+	lazy var circleLayer: CAShapeLayer = {
 		let layer = CAShapeLayer()
-		layer.fillColor = UIColor.clear.cgColor
-		layer.strokeColor = UIColor.purple.cgColor
-		layer.fillColor = UIColor.orange.cgColor
-		layer.lineWidth = 1
+		layer.fillColor = UIColor.CustomColor.white.cgColor
+		layer.masksToBounds = false
+		layer.shadowRadius = 2
+		layer.shadowOpacity = 1
+		layer.shadowColor = UIColor.CustomColor.shadowColor.withAlphaComponent(0.3).cgColor
+		layer.shadowOffset = CGSize(width: 1.5 , height: 1.5)
 		return layer
 	}()
 
+	// MARK: Lifecycle
 	override init(frame: CGRect) {
 		super.init(frame: frame)
 		layer.addSublayer(circleLayer)
@@ -27,9 +30,14 @@ final class CircularView: UIView {
 		fatalError("init(coder:) has not been implemented")
 	}
 
+	private func configure() {
+
+	}
+
 	override func layoutSubviews() {
 		super.layoutSubviews()
 		configurateLayer()
+		configure()
 	}
 
 	private func configurateLayer() {
@@ -37,7 +45,13 @@ final class CircularView: UIView {
 		let radius = min(bounds.width, bounds.height) / 2
 		let startAngle = CGFloat(-Double.pi / 2)
 		let endAngle = startAngle + CGFloat(Double.pi * 2)
-		let path = UIBezierPath(arcCenter: center, radius: radius, startAngle: startAngle, endAngle: endAngle, clockwise: true)
+		let path = UIBezierPath(
+			arcCenter: center,
+			radius: radius,
+			startAngle: startAngle,
+			endAngle: endAngle,
+			clockwise: true
+		)
 		circleLayer.path = path.cgPath
 	}
 }

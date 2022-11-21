@@ -11,8 +11,8 @@ class FilterView: UIView {
 
 	lazy var layout: UICollectionViewLayout = {
 		let layout = UICollectionViewFlowLayout()
-		layout.scrollDirection = .horizontal
-		layout.itemSize = CGSize(width: 100, height: 100)
+		layout.scrollDirection = .vertical
+		layout.itemSize = CGSize(width: 85, height: 85)
 		return layout
 	}()
 
@@ -20,7 +20,10 @@ class FilterView: UIView {
 		let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
 		collectionView.showsVerticalScrollIndicator = false
 		collectionView.showsHorizontalScrollIndicator = false
-		collectionView.register(FilterCollectionViewCell.self, forCellWithReuseIdentifier: FilterCollectionViewCell.identifier)
+		collectionView.register(
+			FilterCollectionViewCell.self,
+			forCellWithReuseIdentifier: FilterCollectionViewCell.identifier
+		)
 		return collectionView
 	}()
 
@@ -37,11 +40,15 @@ class FilterView: UIView {
 // MARK: Extensions
 extension FilterView: UICollectionViewDataSource {
 	func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-		return 5
+		return 4
 	}
 
-	func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-		if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: FilterCollectionViewCell.identifier, for: indexPath) as? FilterCollectionViewCell {
+	func collectionView(_ collectionView: UICollectionView,
+						cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+		if let cell = collectionView.dequeueReusableCell(
+			withReuseIdentifier: FilterCollectionViewCell.identifier,
+			for: indexPath
+		) as? FilterCollectionViewCell {
 			cell.emojiFoodlabel.text = "🍕" // pass indexpath.row with we have an model
 			cell.foodNamelabel.text = "Pizzas"
 			return cell
@@ -54,6 +61,6 @@ extension FilterView: UICollectionViewDataSource {
 extension FilterView: UICollectionViewDelegate {
 	func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
 		// pass indexPath to item selected
-//		collectionView.reloadData()
+		//		collectionView.reloadData()
 	}
 }

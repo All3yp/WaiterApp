@@ -22,7 +22,6 @@ extension FilterView: ViewCode {
 	}
 
 	func setupAdditionalLayout() {
-//		collectionView.backgroundColor = .red
 		collectionView.translatesAutoresizingMaskIntoConstraints = false
 	}
 
