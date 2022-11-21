@@ -19,10 +19,10 @@ extension FilterCollectionViewCell: ViewCode {
 	func setupConstraints() {
 		NSLayoutConstraint.activate([
 
-			circularView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 5),
-			circularView.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor, constant:15),
-			circularView.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor, constant: -15),
-			circularView.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor),
+			circularView.topAnchor.constraint(equalTo: topAnchor),
+			circularView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 15),
+			circularView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -15),
+			circularView.bottomAnchor.constraint(equalTo: bottomAnchor),
 
 			emojiFoodlabel.centerXAnchor.constraint(equalTo: circularView.centerXAnchor),
 			emojiFoodlabel.centerYAnchor.constraint(equalTo: circularView.centerYAnchor),
@@ -46,6 +46,7 @@ extension FilterCollectionViewCell: ViewCode {
 
 		foodNamelabel.font = UIFont.systemFont(ofSize: 19, weight: .semibold)
 		foodNamelabel.textAlignment = .center
+		self.backgroundColor = UIColor(red: Int.random(in: 0...255), green: Int.random(in: 0...255), blue: Int.random(in: 0...255)) // DEBUG
 	}
 	
 }

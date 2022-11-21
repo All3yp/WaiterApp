@@ -10,19 +10,20 @@ import UIKit
 class WaiterMainViewController: UIViewController {
 
 	// MARK: - Views
-	lazy var filterCollectionView: FilterView = FilterView()
+	lazy var filterHeaderView: FilterHeaderView = FilterHeaderView()
+	lazy var waiterView: WaiterView = WaiterView()
 
 	// MARK: - ViewController Cycle
-
-	override func loadView() {
-		super.loadView()
-		self.view = filterCollectionView
-	}
 	override func viewDidLoad() {
 		super.viewDidLoad()
 
 		self.view.backgroundColor = .systemBackground
 		self.title = "Pedido"
+	}
+
+	override func viewDidAppear(_ animated: Bool) {
+		super.viewDidAppear(animated)
+		self.setupViewCode()
 	}
 
 }

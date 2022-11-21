@@ -1,28 +1,29 @@
 //
-//  WaiterCollectionView+ViewCode.swift
+//  WaiterView+ViewCode.swift
 //  WaiterApp
 //
-//  Created by Alley Pereira on 18/11/22.
+//  Created by Alley Pereira on 20/11/22.
 //
 
 import UIKit
 
-extension FilterView: ViewCode {
+extension WaiterView: ViewCode {
 	func addSubviews() {
-		addSubview(collectionView)
+		addSubview(waiterTableView)
 	}
 
 	func setupConstraints() {
 		NSLayoutConstraint.activate([
-			collectionView.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor),
-			collectionView.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor),
-			collectionView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor),
-			collectionView.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor)
+			waiterTableView.leadingAnchor.constraint(equalTo: leadingAnchor),
+			waiterTableView.trailingAnchor.constraint(equalTo: trailingAnchor),
+			waiterTableView.topAnchor.constraint(equalTo: topAnchor),
+			waiterTableView.bottomAnchor.constraint(equalTo: bottomAnchor)
 		])
 	}
 
 	func setupAdditionalLayout() {
-		collectionView.translatesAutoresizingMaskIntoConstraints = false
+		waiterTableView.translatesAutoresizingMaskIntoConstraints = false
 	}
+
 
 }

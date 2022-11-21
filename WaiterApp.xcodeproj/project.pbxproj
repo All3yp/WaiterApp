@@ -16,13 +16,16 @@
 		188DA2CF292735AA008E65DF /* WaiterNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DA2CE292735AA008E65DF /* WaiterNavigationController.swift */; };
 		189B27F92928455000265210 /* ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B27F82928455000265210 /* ViewCode.swift */; };
 		189B27FB292846A700265210 /* FilterCollectionViewCell+ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B27FA292846A700265210 /* FilterCollectionViewCell+ViewCode.swift */; };
-		189B27FE29286B3800265210 /* WaiterView+ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B27FD29286B3800265210 /* WaiterView+ViewCode.swift */; };
+		189B27FE29286B3800265210 /* FilterHeaderView+ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B27FD29286B3800265210 /* FilterHeaderView+ViewCode.swift */; };
+		189B2805292B1D6000265210 /* WaiterView+ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B2804292B1D6000265210 /* WaiterView+ViewCode.swift */; };
+		189B2807292B220900265210 /* WaiterTableViewCell+ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B2806292B220900265210 /* WaiterTableViewCell+ViewCode.swift */; };
 		18A1E775292800390026606E /* WaiterNavigationControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1E774292800390026606E /* WaiterNavigationControllerFactory.swift */; };
 		18A1E7772928024F0026606E /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1E7762928024F0026606E /* CircularView.swift */; };
 		18A1E779292819C10026606E /* FilterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1E778292819C10026606E /* FilterCollectionViewCell.swift */; };
-		18A1E77B29282CBA0026606E /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1E77A29282CBA0026606E /* FilterView.swift */; };
+		18A1E77B29282CBA0026606E /* FilterHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1E77A29282CBA0026606E /* FilterHeaderView.swift */; };
 		18A1E77D29282CD20026606E /* WaiterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1E77C29282CD20026606E /* WaiterView.swift */; };
 		18A1E77F29282CDE0026606E /* WaiterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1E77E29282CDE0026606E /* WaiterTableViewCell.swift */; };
+		18EC414D292C1FF8002D69D9 /* WaiterMainViewController+ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC414C292C1FF8002D69D9 /* WaiterMainViewController+ViewCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,13 +40,16 @@
 		188DA2CE292735AA008E65DF /* WaiterNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaiterNavigationController.swift; sourceTree = "<group>"; };
 		189B27F82928455000265210 /* ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCode.swift; sourceTree = "<group>"; };
 		189B27FA292846A700265210 /* FilterCollectionViewCell+ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FilterCollectionViewCell+ViewCode.swift"; sourceTree = "<group>"; };
-		189B27FD29286B3800265210 /* WaiterView+ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaiterView+ViewCode.swift"; sourceTree = "<group>"; };
+		189B27FD29286B3800265210 /* FilterHeaderView+ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FilterHeaderView+ViewCode.swift"; sourceTree = "<group>"; };
+		189B2804292B1D6000265210 /* WaiterView+ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaiterView+ViewCode.swift"; sourceTree = "<group>"; };
+		189B2806292B220900265210 /* WaiterTableViewCell+ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaiterTableViewCell+ViewCode.swift"; sourceTree = "<group>"; };
 		18A1E774292800390026606E /* WaiterNavigationControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaiterNavigationControllerFactory.swift; sourceTree = "<group>"; };
 		18A1E7762928024F0026606E /* CircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularView.swift; sourceTree = "<group>"; };
 		18A1E778292819C10026606E /* FilterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCollectionViewCell.swift; sourceTree = "<group>"; };
-		18A1E77A29282CBA0026606E /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		18A1E77A29282CBA0026606E /* FilterHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterHeaderView.swift; sourceTree = "<group>"; };
 		18A1E77C29282CD20026606E /* WaiterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaiterView.swift; sourceTree = "<group>"; };
 		18A1E77E29282CDE0026606E /* WaiterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaiterTableViewCell.swift; sourceTree = "<group>"; };
+		18EC414C292C1FF8002D69D9 /* WaiterMainViewController+ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaiterMainViewController+ViewCode.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				189B27FA292846A700265210 /* FilterCollectionViewCell+ViewCode.swift */,
+				189B2806292B220900265210 /* WaiterTableViewCell+ViewCode.swift */,
 			);
 			path = ViewCode;
 			sourceTree = "<group>";
@@ -110,7 +117,8 @@
 		189B2800292B165D00265210 /* ViewCode */ = {
 			isa = PBXGroup;
 			children = (
-				189B27FD29286B3800265210 /* WaiterView+ViewCode.swift */,
+				189B27FD29286B3800265210 /* FilterHeaderView+ViewCode.swift */,
+				189B2804292B1D6000265210 /* WaiterView+ViewCode.swift */,
 			);
 			path = ViewCode;
 			sourceTree = "<group>";
@@ -129,7 +137,7 @@
 			children = (
 				189B2800292B165D00265210 /* ViewCode */,
 				18A1E77C29282CD20026606E /* WaiterView.swift */,
-				18A1E77A29282CBA0026606E /* FilterView.swift */,
+				18A1E77A29282CBA0026606E /* FilterHeaderView.swift */,
 				18A1E7762928024F0026606E /* CircularView.swift */,
 			);
 			path = Views;
@@ -149,6 +157,7 @@
 			children = (
 				1827B3A22926E7BC00D64397 /* CustomColor+Ext.swift */,
 				189B27F82928455000265210 /* ViewCode.swift */,
+				18EC414C292C1FF8002D69D9 /* WaiterMainViewController+ViewCode.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -231,7 +240,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18A1E77B29282CBA0026606E /* FilterView.swift in Sources */,
+				18A1E77B29282CBA0026606E /* FilterHeaderView.swift in Sources */,
+				189B2807292B220900265210 /* WaiterTableViewCell+ViewCode.swift in Sources */,
+				18EC414D292C1FF8002D69D9 /* WaiterMainViewController+ViewCode.swift in Sources */,
 				1827B3882926A25600D64397 /* WaiterMainViewController.swift in Sources */,
 				18A1E77F29282CDE0026606E /* WaiterTableViewCell.swift in Sources */,
 				18A1E7772928024F0026606E /* CircularView.swift in Sources */,
@@ -243,7 +254,8 @@
 				18A1E779292819C10026606E /* FilterCollectionViewCell.swift in Sources */,
 				1827B3862926A25600D64397 /* SceneDelegate.swift in Sources */,
 				18A1E77D29282CD20026606E /* WaiterView.swift in Sources */,
-				189B27FE29286B3800265210 /* WaiterView+ViewCode.swift in Sources */,
+				189B27FE29286B3800265210 /* FilterHeaderView+ViewCode.swift in Sources */,
+				189B2805292B1D6000265210 /* WaiterView+ViewCode.swift in Sources */,
 				189B27F92928455000265210 /* ViewCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

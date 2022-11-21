@@ -1,5 +1,5 @@
 //
-//  WaiterCollectionView.swift
+//  FilterHeaderView.swift
 //  WaiterApp
 //
 //  Created by Alley Pereira on 18/11/22.
@@ -7,11 +7,11 @@
 
 import UIKit
 
-class FilterView: UIView {
+class FilterHeaderView: UIView {
 
 	lazy var layout: UICollectionViewLayout = {
 		let layout = UICollectionViewFlowLayout()
-		layout.scrollDirection = .vertical
+		layout.scrollDirection = .horizontal
 		layout.itemSize = CGSize(width: 85, height: 85)
 		return layout
 	}()
@@ -37,10 +37,10 @@ class FilterView: UIView {
 
 }
 
-// MARK: Extensions
-extension FilterView: UICollectionViewDataSource {
+// MARK: - Extensions
+extension FilterHeaderView: UICollectionViewDataSource {
 	func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-		return 4
+		return 10
 	}
 
 	func collectionView(_ collectionView: UICollectionView,
@@ -56,9 +56,10 @@ extension FilterView: UICollectionViewDataSource {
 		}
 		return UICollectionViewCell()
 	}
+
 }
 
-extension FilterView: UICollectionViewDelegate {
+extension FilterHeaderView: UICollectionViewDelegate {
 	func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
 		// pass indexPath to item selected
 		//		collectionView.reloadData()
